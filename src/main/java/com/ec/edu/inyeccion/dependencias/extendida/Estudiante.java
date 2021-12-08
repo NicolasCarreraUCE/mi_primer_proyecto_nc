@@ -1,4 +1,4 @@
-package com.ec.edu.dependencias;
+package com.ec.edu.inyeccion.dependencias.extendida;
 
 public class Estudiante {
 
@@ -6,10 +6,11 @@ public class Estudiante {
 	private String apellido;
 	private Direccion direccion;
 	
+	
+	
 	public void pargarServipagos(String nombre){
 		System.out.println(nombre + " hace el pago");
 		System.out.println(nombre + " presenta el pago");
-		System.out.println(nombre + " Tarjeta");
 	}
 	
 	// Metodos SET y GET

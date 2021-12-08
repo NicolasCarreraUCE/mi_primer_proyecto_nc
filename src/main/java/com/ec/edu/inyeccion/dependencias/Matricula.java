@@ -1,4 +1,4 @@
-package com.ec.edu.dependencias;
+package com.ec.edu.inyeccion.dependencias;
 
 public class Matricula {
 
@@ -15,14 +15,6 @@ public class Matricula {
 	}
 	
 	public String matricular(String nombre, String apellido, String calle, String numero, int tipo) {
-		
-		if (tipo == 1) {
-			this.estudiante = new Estudiante();
-		} else if (tipo == 2) {
-			this.estudiante = new EstudianteOdontologuia();
-		} else if (tipo == 3) {
-			this.estudiante = new EstudianteArquitectura();
-		}
 		
 		this.estudiante.setNombre(nombre);
 		this.estudiante.setApellido(apellido);
@@ -66,4 +58,5 @@ public class Matricula {
 	public void setDireccion(Direccion direccion) {
 		this.direccion = direccion;
 	}
+
 }

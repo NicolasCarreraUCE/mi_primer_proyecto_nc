@@ -1,10 +1,14 @@
-package com.ec.edu.dependencias;
+package com.ec.edu.inyeccion.dependencias;
 
 public class Estudiante {
 
-	private String nombre;
-	private String apellido;
-	private Direccion direccion;
+	protected String nombre;
+	protected String apellido;
+	protected Direccion direccion;
+	
+	private String facultad;
+	
+	
 	
 	public void pargarServipagos(String nombre){
 		System.out.println(nombre + " hace el pago");
@@ -31,6 +35,13 @@ public class Estudiante {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+	public String getFacultad() {
+		return facultad;
+	}
+	public void setFacultad(String facultad) {
+		this.facultad = facultad;
+	}
+
 	
 	@Override
 	public String toString() {
