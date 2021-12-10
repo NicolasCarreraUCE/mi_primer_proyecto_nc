@@ -7,13 +7,6 @@ public class Matricula {
 	private Estudiante estudiante;
 	private Direccion direccion;
 	
-	public Matricula(Estudiante estudiante, Direccion direccion) {
-		// TODO Auto-generated constructor stub
-		this.estudiante = estudiante;
-		this.direccion = direccion;
-		
-	}
-	
 	public String matricular(String nombre, String apellido, String calle, String numero, int tipo) {
 		
 		if (tipo == 1) {
