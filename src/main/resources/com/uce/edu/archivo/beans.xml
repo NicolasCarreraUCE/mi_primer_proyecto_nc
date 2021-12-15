@@ -5,5 +5,20 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     
+    <bean id="cuenta" class="com.ec.edu.inyeccion.dependencias.framework.Cuenta">
+    	<property name="numero" value="54321"></property>
+    	<property name="saldo" value="100"></property>
+    </bean>
+    
+    <bean id="cuenta1" class="com.ec.edu.inyeccion.dependencias.framework.Cuenta">
+    	<property name="numero" value="23"></property>
+    	<property name="saldo" value="0"></property>
+    </bean>
+    
+    <bean id="estu" class="com.ec.edu.inyeccion.dependencias.framework.Estudiante">
+    	<constructor-arg value="Nicolas"></constructor-arg>
+    	<constructor-arg value="Carrera"></constructor-arg>
+    	<constructor-arg value="22"></constructor-arg>
+    </bean>
     
 </beans>
