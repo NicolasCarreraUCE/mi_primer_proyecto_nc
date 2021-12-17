@@ -21,7 +21,25 @@
     	<constructor-arg value="22"></constructor-arg>
     </bean>
     
+<<<<<<< HEAD
     <bean id="pac" class="paulo.aldaz.tarea.Paciente" >
+=======
+<<<<<<< HEAD
+    <bean id="paciete" class="nicolas.carrera.tarea.Paciente">
+    	<constructor-arg value="Nicolas"></constructor-arg>
+    	<constructor-arg value="Carrera"></constructor-arg>
+    	<constructor-arg value="22"></constructor-arg>
+    </bean>
+    
+    <bean id="profesor" class="nicolas.carrera.tarea.Profesorr">
+    	<constructor-arg value="Edison"></constructor-arg>
+    	<constructor-arg value="Cayambe"></constructor-arg>
+    	<constructor-arg value="ING. Systemas"></constructor-arg>
+    	<constructor-arg value="Universidad Central del Ecuador"></constructor-arg>
+    </bean>
+=======
+    <bean id="pac" class="paulo.aldaz.Paciente" >
+>>>>>>> branch 'main' of https://github.com/NicolasCarreraUCE/mi_primer_proyecto_nc.git
 	<constructor-arg value= "Paulo"></constructor-arg>
 	<constructor-arg value= " me voy a graduar, creo"></constructor-arg>	
 		
@@ -33,5 +51,6 @@
 		
 
 	</bean>
+>>>>>>> branch 'main' of https://github.com/NicolasCarreraUCE/mi_primer_proyecto_nc.git
     
 </beans>
