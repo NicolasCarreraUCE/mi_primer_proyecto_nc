@@ -21,14 +21,14 @@
     	<constructor-arg value="22"></constructor-arg>
     </bean>
     
-    <bean id="pac" class="paulo.aldaz.Paciente" >
+    <bean id="pac" class="paulo.aldaz.tarea.Paciente" >
 	<constructor-arg value= "Paulo"></constructor-arg>
 	<constructor-arg value= " me voy a graduar, creo"></constructor-arg>	
 		
 	</bean>
 	
 	
-	<bean id="prof" class="paulo.aldaz.Profesor">
+	<bean id="prof" class="paulo.aldaz.tarea.Profesor">
 		<property name="nombre" value="Ginecologia"></property>
 		
 

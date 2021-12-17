@@ -28,13 +28,17 @@ com\ec\edu\inyeccion\dependencias\Direccion.class
 com\ec\edu\inyeccion\dependencias\Matricula.class
 com\ec\edu\dependencias\Direccion.class
 com\ec\edu\inyeccion\dependencias\framework\Cuenta.class
+paulo\aldaz\tarea\Paciente.class
 com\ec\edu\inyeccion\dependencias\MainFramework.class
 com\ec\edu\dependencias\Matricula.class
 com\ec\edu\inyeccion\dependencias\Estudiante.class
 com\ec\edu\deberes\clases\anónima\CuentaAhorros.class
+com\ec\edu\inyeccion\dependencias\framework\Estudiante.class
+paulo\aldaz\tarea\Main.class
 com\ec\edu\inyeccion\dependencias\modelos\CuentaFuturo.class
 mi\primer\proyecto\nc\Animal.class
 com\ec\edu\inyeccion\dependencias\modelos\ICuenta.class
 com\ec\edu\deberes\banco\CuentaHabiente.class
 com\ec\edu\deberes\clases\anónima\GestorCuentas.class
 com\ec\edu\dependencias\EstudianteArquitectura.class
+paulo\aldaz\tarea\Profesor.class
